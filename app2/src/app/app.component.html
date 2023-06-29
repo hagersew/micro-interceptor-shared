@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="cont">
+  <h1>Micro 2</h1>
+  <div class="flex flex-column">
+    <button (click)="sendRequest()" style="margin-left: 10px">
+      request api post
+    </button>
+    <p>
+      {{ status.loading$ | async }}
+    </p>
+  </div>
+</div>
